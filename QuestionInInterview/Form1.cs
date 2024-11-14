@@ -34,13 +34,13 @@ namespace QuestionInInterview
 
         private void button23_Click(object sender, EventArgs e)
         {
-            List<string> wordsToSearch = new List<string> { "hello", "cold", "chill", "cloud", "candy" };
+            List<string> wordsToSearch = new List<string> { "cold", "wind", "snow", "chill" };
             string[] matrix = {
-            "hcold",
-            "hcllo",
-            "coill",
-            "clndy",
-            "cdoud"
+            "abcgc",
+            "fgwio",
+            "chill",
+            "pqnsd",
+            "uvdxy"
         };
             // Initialize WordMatrixFinder with the given matrix
             WordFinder finder = new WordFinder(matrix);
